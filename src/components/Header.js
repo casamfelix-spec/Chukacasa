@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export default function Header() {
   return (
-    <header className="fixed top-0 left-0 w-full bg-[#00061C]/90 backdrop-blur-md z-50 border-b border-slate-800">
+    <header className="fixed top-0 left-0 w-full bg-[#0a192f]/90 backdrop-blur-md z-50 border-b border-slate-800">
       <div className="max-w-6xl mx-auto px-6 h-20 flex items-center justify-between">
         <Link href="/" className="text-xl font-serif text-slate-100 tracking-wide">
           Chuka 
