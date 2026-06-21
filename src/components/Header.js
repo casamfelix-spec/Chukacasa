@@ -5,7 +5,7 @@ export default function Header() {
     <header className="fixed top-0 left-0 w-full bg-[#00061C]/90 backdrop-blur-md z-50 border-b border-slate-800">
       <div className="max-w-6xl mx-auto px-6 h-20 flex items-center justify-between">
         <Link href="/" className="text-xl font-serif text-slate-100 tracking-wide">
-          ARTIST NAME
+          Chuka 
         </Link>
         <nav className="flex gap-8 text-sm uppercase tracking-wider text-slate-300">
           <Link href="/gallery" className="hover:text-slate-100 transition">Gallery</Link>
