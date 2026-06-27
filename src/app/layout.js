@@ -1,12 +1,20 @@
 import './globals.css';
-import Header from '../components/Header';
+import Header from '@/components/Header';
+
+export const metadata = {
+  title: 'Chuka Portfolio',
+  description: 'Contemporary Painter Portfolio',
+};
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="bg-[#0a192f] text-slate-100 min-h-screen">
+      {/* Changed background strictly to #020617 across the entire universe of your site */}
+      <body className="bg-[#020617] text-slate-100 min-h-screen antialiased selection:bg-slate-800 selection:text-slate-200">
         <Header />
-        {children}
+        <div className="pt-24">
+          {children}
+        </div>
       </body>
     </html>
   );
